@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+_pycache_
+.idea
+*.rar
+*.zip
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+/tests/.pytest_cache/

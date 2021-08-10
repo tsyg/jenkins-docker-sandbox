@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  jenkins:
+      build:
+        context: .
+      ports:
+        - "8080:8080"
+      volumes:
+        - "../app/.git:/tmp/rep"
+        - "/var/run/docker.sock:/var/run/docker.sock"
