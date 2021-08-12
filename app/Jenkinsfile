@@ -13,7 +13,7 @@ pipeline {
         stage("test") {
             steps {
                 sh """
-		    docker run --entrypoint behave
+		    docker run fastapi_test:latest behave
                 """
             }
         }
