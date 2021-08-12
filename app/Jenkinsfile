@@ -1,6 +1,7 @@
 pipeline {
     agent any
     stages {
+
         stage("build") {
             steps {
                 sh """
@@ -8,6 +9,15 @@ pipeline {
                 """
             }
         }
+
+        stage("test") {
+            steps {
+                sh """
+		    docker run --entrypoint "cd app && behave && cd .."
+                """
+            }
+        }
+
         stage("run") {
             steps {
                 sh """
@@ -15,6 +25,9 @@ pipeline {
                 """
             }
         }
+
+
+
     }
 }
 
