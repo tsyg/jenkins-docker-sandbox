@@ -29,16 +29,13 @@ D:\YOUR\DIRECTORY\jenkins-docker-sandbox> git checkout master
  
 
 D:\YOUR\DIRECTORY\jenkins-docker-sandbox> docker images
-REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
-<none>       <none>    a886d0ac9a3c   14 seconds ago   1.11GB
-alpine/git   latest    b8f176fa3f0d   3 months ago     25.1MB
+REPOSITORY            TAG       IMAGE ID       CREATED         SIZE
+docker-nice-sandbox   01        5ff8c20d0ec0   2 minutes ago   1.11GB
 
 
 1. # run Jenkins - it uses port 8080 - so specifying it to make available
 
-docker run -p 8080:8080  --name jenkins-nice-sandbox-Container docker-nice-sandbox01:01
-
- 
+docker run -p 8080:8080 --name jenkins-nice-container docker-nice-sandbox:01
  
 1. Unlock Jenkins - copy-paste password from console into
 1. Customize Jenkins: - click "Install Suggested plugins"
