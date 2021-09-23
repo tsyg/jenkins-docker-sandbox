@@ -7,5 +7,5 @@ services:
         - "8080:8080"
       #user: "jenkins:jenkins"  
       volumes:
-        - "../app/.git:/tmp/rep"
+        - "..:/tmp/rep"
         - "/var/run/docker.sock:/var/run/docker.sock"
