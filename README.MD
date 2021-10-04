@@ -19,7 +19,6 @@ D:\YOUR\DIRECTORY> git clone https://github.com/tsyg/jenkins-docker-sandbox.git
 
 D:\YOUR\DIRECTORY> cd jenkins-docker-sandbox\jenkins
 
-D:\YOUR\DIRECTORY\jenkins-docker-sandbox> git checkout master
 
 1. # Build the image and run 
 jenkins> docker-compose up --build
