@@ -44,9 +44,11 @@ docker run -p 8080:8080 --name jenkins-nice-container docker-nice-sandbox:01
  
 ############## End-Of-Alternative 
  
- 
+
+1. in browser: localhost:8080 
 1. Unlock Jenkins - copy-paste password from console into
-1. Customize Jenkins: - click "Install Suggested plugins"
+1. Customize Jenkins: - click "Install Suggested plugins", 
+1.1. "Skip and continue", "not now"
 1. in Repository: choose Git: file:///tmp/rep
 
 
