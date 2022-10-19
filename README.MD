@@ -60,4 +60,5 @@ In docker-Desktop
  - Delete the image:    click "..." > Remove
  
  
-  
+ As a workaround - to skip password usage one may set false in 
+ <useSecurity>false</useSecurity> in config.xml  
