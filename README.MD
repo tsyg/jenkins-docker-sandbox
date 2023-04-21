@@ -20,12 +20,12 @@ D:\YOUR\DIRECTORY> git clone https://github.com/tsyg/jenkins-docker-sandbox.git
 D:\YOUR\DIRECTORY> cd jenkins-docker-sandbox\jenkins
 
 
-1. # Build the image and run 
+# Build the image and run 
 jenkins> docker-compose up --build
 
 ##################  Alternative:
 
-1. # Build image and tag it as docker-nice-sandbox with version 01
+# Build image and tag it as docker-nice-sandbox with version 01
 
 > docker build -t docker-nice-sandbox:01 .
  
@@ -37,7 +37,7 @@ docker-nice-sandbox   01        5ff8c20d0ec0   2 minutes ago   1.11GB
 
 
 
-1. # run Jenkins - it uses port 8080 - so specifying it to make available
+# run Jenkins - it uses port 8080 - so specifying it to make available
 
 docker run -p 8080:8080 --name jenkins-nice-container docker-nice-sandbox:01
  
