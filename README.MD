@@ -8,14 +8,15 @@ Use it on your computer to play with Docker, Jenkins - without any risk to impac
 
 ## Setting up (Any OS)
 
-1. Clone this repository into your directory for the SandBox , e.g.:
+1. In console (terminal or power shell): 
+2. Clone this repository into your directory for the SandBox , e.g.:
 D:\YOUR\DIRECTORY> git clone https://github.com/tsyg/jenkins-docker-sandbox.git
 
 ### On Windows
 
 1. Download docker - e.g. from https://www.docker.com/products/docker-desktop  and install it
 
-1. in console 
+1. in console (terminal or power shell)
 
 D:\YOUR\DIRECTORY> cd jenkins-docker-sandbox\jenkins
 
